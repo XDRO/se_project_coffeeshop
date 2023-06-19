@@ -95,11 +95,10 @@
 
 .header__image {
   position: absolute;
-  position: absolute;
+  right: 5px;
+  top: 124px;
   height: 568px;
   width: 646px;
-  top: 124px;
-  right: 5px;
 }
 
 .header__footer {
@@ -111,7 +110,7 @@
   box-sizing: border-box;
 }
 
-.header__footer_content_hours {
+.header__footer__content_hours {
   margin: 0 0 40px 80px;
   font-family: "Inter";
   font-style: normal;
@@ -119,9 +118,10 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  list-style: none;
 }
 
-.open_and_closing_hours {
+.header__footer__open_and_closing_hours {
   list-style: none;
 }
 
@@ -189,7 +189,7 @@
   height: 273px;
 }
 
-.left_text {
+.videos__left_text {
   margin: 24px 0 0 0;
   font-family: "Inter";
   font-style: normal;
@@ -200,7 +200,7 @@
   display: flex;
 }
 
-.right_text {
+.videos__right_text {
   margin: 24px 0 0 0;
   font-family: "Inter";
   font-style: normal;
@@ -214,7 +214,7 @@
   bottom: 55px;
 }
 
-.right_text_2 {
+.videos__right_text_2 {
   margin: 24px 0 0 0;
   font-family: "Inter";
   font-style: normal;
