@@ -188,7 +188,7 @@
   height: 273px;
 }
 
-.left_text {
+.recipes__left_text {
   margin: 24px 0 0 0;
   font-family: "Inter";
   font-style: normal;
@@ -199,7 +199,7 @@
   display: flex;
 }
 
-.right_text {
+.recipes__right_text {
   margin: 24px 0 0 0;
   font-family: "Inter";
   font-style: normal;
@@ -213,7 +213,7 @@
   bottom: 55px;
 }
 
-.right_text_2 {
+.recipes__right_text_2 {
   margin: 24px 0 0 0;
   font-family: "Inter";
   font-style: normal;
