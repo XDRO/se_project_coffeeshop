@@ -110,7 +110,7 @@
   box-sizing: border-box;
 }
 
-.content_hours {
+.content-hours {
   margin: 0 0 40px 80px;
   font-family: "Inter";
   font-style: normal;
@@ -121,7 +121,7 @@
   list-style: none;
 }
 
-.open_and_closing_hours {
+.open-and-closing-hours {
   list-style: none;
   display: flex;
   align-items: flex-start;
