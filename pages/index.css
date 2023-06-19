@@ -110,7 +110,7 @@
   box-sizing: border-box;
 }
 
-.header__footer__content_hours {
+.content_hours {
   margin: 0 0 40px 80px;
   font-family: "Inter";
   font-style: normal;
@@ -121,8 +121,11 @@
   list-style: none;
 }
 
-.header__footer__open_and_closing_hours {
+.open_and_closing_hours {
   list-style: none;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .header__address {
@@ -189,7 +192,7 @@
   height: 273px;
 }
 
-.videos__left_text {
+.left_text {
   margin: 24px 0 0 0;
   font-family: "Inter";
   font-style: normal;
@@ -200,7 +203,7 @@
   display: flex;
 }
 
-.videos__right_text {
+.right_text {
   margin: 24px 0 0 0;
   font-family: "Inter";
   font-style: normal;
@@ -214,7 +217,7 @@
   bottom: 55px;
 }
 
-.videos__right_text_2 {
+.right_text_2 {
   margin: 24px 0 0 0;
   font-family: "Inter";
   font-style: normal;
