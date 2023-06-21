@@ -202,8 +202,8 @@
 }
 
 .reservation {
-  min-height: 100vh;
-  max-height: 100vh;
+  min-height: 110vh;
+  /* max-height: 100vh; */
   background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
   background-repeat: no-repeat;
@@ -211,7 +211,7 @@
   background-size: cover;
 }
 
-.form {
+.reservation__form {
   margin: 0 auto;
   height: 100%;
   display: flex;
