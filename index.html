@@ -7,7 +7,6 @@
     <meta name="author" content="Joshua James" />
     <meta name="description" content="Free coffee for practicum students" />
     <meta name="keywords" content="HTML,CSS" />
-    <link rel="stylesheet" type="text/css" href="./vendor/normalize.css" />
     <link rel="stylesheet" type="text/css" href="./pages/index.css" />
     <link rel="icon" href="./favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -181,10 +180,249 @@
             </fieldset>
           </form>
         </section>
-        <section id="menu" class="menu"></section>
-        <section id="contacts" class="about"></section>
+        <section id="menu" class="menu">
+          <h2 class="menu__title">Menu</h2>
+          <p class="menu__subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable <br />
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;cups.
+            All teas from our collection are $2/cup
+          </p>
+          <div class="menu__cards">
+            <div class="card">
+              <h3 class="card__title">Filter</h3>
+              <ul class="list__item">
+                <li class="card__list-item">
+                  Regular (12 oz)
+                  <span class="card__list-divider"
+                    >&nbsp;________________________________________________</span
+                  >
+                  $1
+                </li>
+              </ul>
+
+              <!-- </li> -->
+              <div class="card">
+                <ul class="list__item">
+                  <li class="card__list-item">
+                    Large (16 oz)
+                    <span class="card__list-divider"
+                      >&nbsp;_______________________________________________</span
+                    >
+                    $1.25
+                  </li>
+                </ul>
+              </div>
+              <div class="card">
+                <ul class="list__item">
+                  <li class="card__list-item">
+                    XL (20 oz)
+                    <span class="card__list-divider"
+                      >&nbsp;__________________________________________________</span
+                    >
+                    $1.50
+                    <!--said 1.5 I think it meant to say $1.50-->
+                  </li>
+                </ul>
+              </div>
+              <div class="card">
+                <ul class="list__item">
+                  <li class="card__list-item">
+                    Party-size (24 oz, decaf)
+                    <span class="card__list-divider"
+                      >&nbsp;___________________________________</span
+                    >
+                    $1.75
+                  </li>
+                </ul>
+              </div>
+              <div class="card">
+                <ul class="list__item">
+                  <li class="card__list-item">
+                    Iced Coffee
+                    <span class="card__list-divider"
+                      >&nbsp;_________________________________________________</span
+                    >
+                    $1.25
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!---->
+            <div class="card">
+              <h3 class="card__title">Espresso</h3>
+              <ul class="list__item">
+                <li class="card__list-item">
+                  Macchiato
+                  <span class="card__list-divider">
+                    &nbsp;_________________________________________________</span
+                  >
+                  $2.25
+                </li>
+              </ul>
+
+              <div class="card">
+                <ul class="list__item">
+                  <li class="card__list-item">
+                    Cortado
+                    <span class="card__list-divider">
+                      &nbsp;___________________________________________________</span
+                    >
+                    $2.50
+                  </li>
+                </ul>
+              </div>
+              <div class="card">
+                <ul class="list__item">
+                  <li class="card__list-item">
+                    Mocha
+                    <span class="card__list-divider">
+                      &nbsp;________________________________________________________</span
+                    >
+                    $3
+                  </li>
+                </ul>
+              </div>
+              <div class="card">
+                <ul class="list__item">
+                  <li class="card__list-item">
+                    Sunrise in the Bay Area (decaf)
+                    <span class="card__list-divider">
+                      &nbsp;______________________________</span
+                    >
+                    $10
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!---->
+            <div class="card">
+              <h3 class="card__title">Baked Goods</h3>
+              <ul class="list__item">
+                <li class="card__list-item">
+                  Almond Croissant
+                  <span class="card__list-divider"
+                    >&nbsp;____________________________________________</span
+                  >
+                  $2
+                </li>
+              </ul>
+
+              <div class="card">
+                <ul class="list__item">
+                  <li class="card__list-item">
+                    Banana Bread
+                    <span class="card__list-divider"
+                      >&nbsp;_____________________________________________</span
+                    >
+                    $1.75
+                  </li>
+                </ul>
+              </div>
+              <div class="card">
+                <ul class="list__item">
+                  <li class="card__list-item">
+                    Key Lime Pie
+                    <span class="card__list-divider"
+                      >&nbsp;_________________________________________________</span
+                    >
+                    $3
+                  </li>
+                </ul>
+              </div>
+              <div class="card">
+                <ul class="list__item">
+                  <li class="card__list-item">
+                    Blue Velvet Cake
+                    <span class="card__list-divider"
+                      >&nbsp;__________________________________________</span
+                    >
+                    $3.75
+                  </li>
+                </ul>
+              </div>
+              <div class="card">
+                <ul class="list__item">
+                  <li class="card__list-item">
+                    Web Cookie
+                    <span class="card__list-divider"
+                      >&nbsp;__________________________________________________</span
+                    >
+                    $2
+                  </li>
+                </ul>
+              </div>
+              <div class="card">
+                <ul class="list__item">
+                  <li class="card__list-item">
+                    Fresh Bug'uette
+                    <span class="card__list-divider"
+                      >&nbsp;___________________________________________</span
+                    >
+                    $0.25
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contacts" class="about">
+          <h2 class="about__title">About the<br />coffee shop</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is located in the Triple Peaks Library. It
+              features 6 tables and free WiFi.
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we<br />
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <div>
+            <img
+              src="./images/logo_coffeeshop_light.png"
+              alt="Triple Espresso logo"
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer__list">
+            <ul>
+              <h2 class="footer__social-heading">Social media</h2>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link" about="blank">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Facebook logo"
+                    class="footer__social-icon"
+                  /> </a
+                >Facebook
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__link" about="blank"
+                  ><img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram logo"
+                    class="footer__social-icon"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+          <p class="footer__copyright">&copy; 2023 Joshua James</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

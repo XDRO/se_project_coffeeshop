@@ -1,0 +1,77 @@
+@import url(../blocks/menu.css);
+
+.menu {
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.menu__title {
+  padding-top: 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 780px;
+  position: relative;
+  left: 400px;
+  margin: 100px 0 24px 0;
+}
+
+.menu__subtitle {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 100px 0;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.menu__cards {
+  display: flex;
+  list-style: none;
+  gap: 100px;
+  justify-content: center;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+}
+
+.card__title {
+  margin-bottom: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.list__item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.card__list-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 16px 0;
+}
+
+.card__list-divider {
+  display: flex;
+  justify-content: flex-end;
+}
