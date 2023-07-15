@@ -10,11 +10,10 @@
   background-repeat: no-repeat;
   background-position: center;
   z-index: 1;
-  padding: 0 0 40px 80px;
 }
 
 .header__title {
-  margin: 183px 0 0 0;
+  margin: 183px 0 0 80px;
   display: flex;
   flex-wrap: wrap;
   max-width: 729px;
@@ -44,7 +43,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  margin: 28px 0 0 0;
+  margin: 28px 0 0 80px;
   max-width: 683px;
   z-index: 1;
 }
@@ -62,10 +61,13 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
+  margin-left: 80px;
+  margin-bottom: 40px;
 }
 
 .header__paragraph {
   margin: 0;
+  margin-right: 80px;
   margin-top: auto;
   z-index: 2;
   font-family: "Inter", serif, sans-serif;
