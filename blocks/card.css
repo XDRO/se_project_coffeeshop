@@ -7,7 +7,7 @@
 
 .card__title {
   margin-bottom: 32px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, Times new roman;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -27,15 +27,19 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 16px;
-  font-family: "Noto Serif", serif, sans-serif;
+  font-family: "Noto Serif", Arial, Times new roman;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
 }
 
+.card__list-item:last-of-type {
+  margin: 0;
+}
+
 .card__list-divider {
-  font-family: "Inter";
+  font-family: "Inter", Arial, Times new roman;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;

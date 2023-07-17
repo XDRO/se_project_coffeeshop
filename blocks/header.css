@@ -18,7 +18,7 @@
   flex-wrap: wrap;
   max-width: 729px;
   color: #000;
-  font-family: "Inter", serif, sans-serif;
+  font-family: "Inter", Arial, Times new roman;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -28,7 +28,7 @@
 }
 
 .header__span-accent {
-  font-family: "Noto Serif", serif, sans-serif;
+  font-family: "Noto Serif", Arial, Times new roman;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -38,7 +38,7 @@
 }
 
 .header__description {
-  font-family: "Noto Serif", serif, sans-serif;
+  font-family: "Noto Serif", Arial, Times new roman;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -70,7 +70,7 @@
   margin-right: 80px;
   margin-top: auto;
   z-index: 2;
-  font-family: "Inter", serif, sans-serif;
+  font-family: "Inter", Arial, Times new roman;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
