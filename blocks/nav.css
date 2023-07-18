@@ -22,7 +22,7 @@
 .nav__link {
   color: #000;
   text-decoration: none;
-  font-family: "Inter", Arial, Times new roman;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -31,5 +31,5 @@
 
 .nav__link:hover {
   color: #1f69c9;
-  transition: transform 0.2s ease;
+  transition: color 0.2s ease;
 }

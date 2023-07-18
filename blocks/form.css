@@ -7,7 +7,7 @@
 
 .form__label {
   margin-bottom: 8px;
-  font-family: "Inter", Arial, Times new roman;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -23,19 +23,20 @@
   min-width: 385px;
   height: 60px;
   margin-bottom: 32px;
-  font-family: "Inter", Arial, Times new roman;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   color: #838383;
+  border-width: 1px;
 }
 
 .form__button {
   height: 60px;
   max-width: 385px;
   width: 385px;
-  font-family: "Inter", Arial, Times new roman;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

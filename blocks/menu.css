@@ -20,7 +20,7 @@
 
 .menu__title {
   padding-top: 0;
-  font-family: "Inter", Arial, Times new roman;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -33,7 +33,7 @@
 .menu__subtitle {
   text-align: center;
   margin: 0;
-  font-family: "Noto Serif", Arial, Times new roman;
+  font-family: "Noto Serif", Times new roman, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
